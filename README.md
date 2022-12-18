@@ -1,9 +1,10 @@
 - 👋 Hi, I’m @stokhos
+- ✨ I think the lone wolf survives but the pack dies
 - 👀 I’m interested in low level cool stuff
 - 🌱 I’m currently learning Jax, Pytorch, GYM
 - 💞️ I’m looking to collaborate on low level cool stuff
 - 📫 How to reach me: Open an issue here.
-### AVL-Tree Structure
+### Binary Search Tree Structure
 ```
             ------   /
            |21, 32| /
@@ -48,8 +49,3 @@ BID: max 13    min 10
            |  12  | \
             ------   \
 
-
-<!---
-stokhos/stokhos is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
