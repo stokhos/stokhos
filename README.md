@@ -12,10 +12,9 @@ microstructure, performance engineering, and high-performance data structures.
 
 ## Featured project
 
-### [C++ Order Matching Engine](https://github.com/stokhos/Projects/tree/main/match_engine)
+### [Order Matching Engine](https://github.com/stokhos/Projects/tree/main/match_engine)
 
-A C++26 price-time-priority matching engine with direct cancellation,
-defensive input handling, 90 automated tests, and documented design tradeoffs.
+A price-time-priority matching engine with direct cancellation.
 
 - [Implementation and usage](https://github.com/stokhos/Projects/blob/main/match_engine/README.md)
 - [Design and performance analysis](https://github.com/stokhos/Projects/blob/main/match_engine/docs/design-and-performance.md)
