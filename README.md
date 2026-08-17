@@ -4,21 +4,23 @@
   <code>explicit state</code> · <code>terminal-first tools</code> · <code>observable failure</code> · <code>measured tails</code>
 </p>
 
-This is my public engineering workbench: small systems pushed far enough to expose their invariants, failure modes, operator surfaces, and measurement costs. I want failures to reveal what changed, why, how long it took, and what observing it cost.
-
 ## `./hello`
 
-✨ I think the lone wolf survives but the pack dies  
-👀 I’m interested in low level cool stuff  
-💞️ I’m looking to collaborate on low level cool stuff
-🧪 My other GitHub: [@DrunkenRandomWalker](https://github.com/DrunkenRandomWalker)  
-📫 [Open an issue here](https://github.com/stokhos/stokhos/issues) · [LinkedIn](https://www.linkedin.com/in/peiyun-jin-3938362b9/)
+```text
+explore      👀  low-level cool stuff
+build        🛠️  focused systems understood end to end
+diagnose     🔎  clear cause, clear cost
+collaborate  💞️  on low-level cool stuff
+believe      ✨  the lone wolf survives, but the pack dies
+```
 
+🧪 My other GitHub: [@DrunkenRandomWalker](https://github.com/DrunkenRandomWalker)  
+📫 [Open an issue here](https://github.com/stokhos/stokhos/issues) 
 ## `./featured-work`
 
 ### `./adjacent-study`
 
-Bid/ask BST:
+Bid/ask binary-search tree rendered in plain text:
 
 ```text
             ------   /
@@ -65,11 +67,11 @@ BID: max 13    min 10
             ------   \
 ```
 
+This is a separate BST-backed visualization study. The featured engine uses price-indexed FIFO levels plus an occupancy bitset.
+
 ### `./in-the-lab`
 
 #### [`order-matching-engine`](https://github.com/stokhos/Projects/tree/main/match_engine)
-
-`C++` · `single writer` · `price-time priority` · `direct cancellation`
 
 A deterministic, in-memory matching engine for studying order-book design, failure boundaries, and the operator surface around a hot path.
 
@@ -78,23 +80,17 @@ A deterministic, in-memory matching engine for studying order-book design, failu
 ## `./working-principles`
 
 ```text
-question -> model -> build -> instrument -> test -> benchmark -> explain
+question -> build -> measure -> explain
 ```
 
-- Keep machine output stable and human diagnostics on a separate, pipeable channel.
-- Make transitions reconstructible from stable inputs, identifiers, and reason codes.
-- Measure distributions, saturation, drops, and instrumentation overhead—not only averages.
-- Design terminal views for keyboard use, stable geometry, stale-state visibility, and color-independent meaning.
-
-### Questions on the bench
-
-- What is the smallest event schema that can reconstruct an order lifecycle?
-- Which signals justify their hot-path cost, and which belong off-path?
-- How should a terminal view expose backpressure, dropped events, and stale state?
+- Separate machine output from human diagnostics.
+- Reconstruct every transition from stable inputs, IDs, and reason codes.
+- Measure tails, saturation, drops, and instrumentation overhead.
+- Keep terminal views keyboard-first, stable, and readable without color.
 
 ## `./modeling-workbench`
 
-I use **JAX** and **PyTorch** for comparable modeling loops, **Ray** for parallel trials and rollouts, and **Gym** for explicit environment contracts. The interesting questions are determinism, compilation boundaries, steady-state throughput, orchestration overhead, and whether implementations measure the same thing.
+**JAX / PyTorch** for modeling. **Ray** for parallel execution. **Gym** for environment contracts. Deterministic runs. Comparable measurements.
 
 ## `./upstream`
 
