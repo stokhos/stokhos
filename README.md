@@ -15,7 +15,8 @@ believe      ✨  the lone wolf survives, but the pack dies
 ```
 
 🧪 My other GitHub: [@DrunkenRandomWalker](https://github.com/DrunkenRandomWalker)  
-📫 [Open an issue here](https://github.com/stokhos/stokhos/issues) 
+📫 [Open an issue here](https://github.com/stokhos/stokhos/issues) · [LinkedIn](https://www.linkedin.com/in/peiyun-jin-3938362b9/)
+
 ## `./featured-work`
 
 ### `./adjacent-study`
@@ -71,7 +72,17 @@ This is a separate BST-backed visualization study. The featured engine uses pric
 
 ### `./in-the-lab`
 
+#### [`market-data-tools`](https://github.com/stokhos/Projects/tree/main/market_data_tools)
+
+`redundant feeds` · `fixed-capacity ring` · `copy-aware filtering`
+
+Three focused exercises at the market-data boundary: merge duplicate and out-of-order feeds into one ordered stream, select large trades without copying their payloads, and suppress unchanged quotes.
+
+[Source and scenarios](https://github.com/stokhos/Projects/blob/main/market_data_tools/README.md) · [UDP merger anatomy](https://github.com/stokhos/Projects/blob/main/market_data_tools/docs/udp-feed-merger-anatomy.html)
+
 #### [`order-matching-engine`](https://github.com/stokhos/Projects/tree/main/match_engine)
+
+`single writer` · `price-time priority` · `direct cancellation`
 
 A deterministic, in-memory matching engine for studying order-book design, failure boundaries, and the operator surface around a hot path.
 
